@@ -20,6 +20,8 @@ A simple and interactive To-Do List application built using React.
 - Prevent duplicate tasks
 - Responsive UI
 
+-------------
+
 ## 📂 Project Structure
 src/
  ├── component/
