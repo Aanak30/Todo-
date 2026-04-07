@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89dc77, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 25px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input box */
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #667eea;
+}
+
+/* Add Button */
+.input-box button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-box button:hover {
+  background: #5a67d8;
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+/* Item */
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+/* Text */
+li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Completed */
+.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Buttons */
+li button {
+  margin-left: 8px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Edit */
+li button:nth-child(2) {
+  background: #f6ad55;
+  color: white;
+}
+
+li button:nth-child(2):hover {
+  background: #ed8936;
+}
+
+/* Delete */
+li button:nth-child(3) {
+  background: #f56565;
+  color: white;
+}
+
+li button:nth-child(3):hover {
+  background: #e53e3e;
+}
+
+/* Save Button */
+li button:first-of-type {
+  background: #48bb78;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background: #38a169;
+}
+
+/* Edit Input */
+li input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
