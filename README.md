@@ -33,3 +33,12 @@ src/
 
 ---
 
+
+ ## ▶️ How to Run the Application
+
+Follow these steps to run the project locally on your system:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Aanak30/todo-app-react.git
+
