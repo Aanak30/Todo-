@@ -42,3 +42,15 @@ Follow these steps to run the project locally on your system:
 ```bash
 git clone https://github.com/Aanak30/todo-app-react.git
 
+2. Navigate to project folder
+cd todo-app-react
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+5. Open in browser
+
+After running the above command, open the URL shown in terminal (usually):
+
+http://localhost:5173
+
